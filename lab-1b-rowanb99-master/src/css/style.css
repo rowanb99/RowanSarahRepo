@@ -1,0 +1,61 @@
+:root {
+    /* Change these variables according to your theme */
+    --primary: #ffffff;
+    --accent: #862b2b;
+    --delete: #ec1010;
+    --primary-text: #160e88;
+    --secondary-text:#f5d5cc;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--primary-text);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: var(--accent);
+    color: var(--accent);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: var(--primary-text);
+    background-color: var(--accent);
+  }
+
+  .navbar-brand, .navbar-toggler, .navbar-light, .btn{
+    background-color: var(--accent);
+    color: var(--secondary-text);
+  }
+
+  .form-control {
+      background-color: var(--secondary-text);
+  }
+
+/* TODO: add rule for: */
+/* navbar background and text */
+
+/* TODO: add rule for: */
+/* text on a 'done' task */
+
+/* TODO: add rule for: */
+/* checkbox and delete button cursor */
+
+/* TODO: add rule for: */
+/* switches */
+
+/* TODO: add rule for: */
+/* submit button background and text */
+
+/* TODO: add rule for: */
+/* delete button color */
+
+/* TODO: add rule for: */
+/* update button color */
+
+/* TODO: add rule for anything else you need styled */
